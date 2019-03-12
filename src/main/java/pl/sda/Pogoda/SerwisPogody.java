@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.URL;
 
 public class SerwisPogody {
-    final String finalUrl= "http://api.apixu.com/v1/current.json?key=9889be10aad4447183a115547191003&q=";
+    final String finalUrl= "http://api.apixu.com/v1/current.json?key=6219ff788aa942b2aef115716191003&q=";
 
 
     public SerwisPogody() {

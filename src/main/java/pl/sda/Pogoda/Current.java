@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Current {
 
-    private String last_updated_epoch;
+    private long last_updated_epoch;
     private String last_updated;
     private int temp_c;
-    private int temp_f;
+    private float temp_f;
     private int is_day;
     private Condition condition;
     private double wind_mph;
@@ -31,5 +31,7 @@ public class Current {
     private int vis_km;
     private int vis_miles;
     private int uv;
+    private double gust_mph;
+    private double gust_kph;
 }
 
